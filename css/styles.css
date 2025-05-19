@@ -1,0 +1,441 @@
+h1 {  
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;  
+    line-height: 1.5;  
+    font-weight: 900;
+    
+}
+
+h2 { 
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+
+h3 { 
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    
+}
+
+p {
+    color: #8f8f8f;
+}
+
+
+#title {
+    /* background-color: #ff4c68; */
+    background-color: #D73F09;
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+/* Nav-bar styles */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat-light', sans-serif;
+    
+}
+ /* Download-button  */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* img-Title  */
+
+.title-img {
+    width: 100%;
+}
+ 
+.coloms {
+    width: 10px;
+
+}
+
+.featuers-icon {
+    /* color: #ff4c68; */
+    color: #D73F09;
+    padding-bottom: 1rem;
+   
+
+}
+
+.featuers-icon:hover {
+    /* color: #f31d3e; */
+    color: #fa4b0c;
+}
+
+#features {
+    
+    padding: 7% 15%;
+}
+
+.featuers-box {
+    text-align: center;
+    padding: 5%;
+}
+
+/* Testimonials */
+
+#testimonials {
+    
+    text-align: center;
+    background-color: #D73F09;
+    color: #fff;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonials-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+    object-fit: cover;
+}
+
+/* Press */
+
+#press {
+    background-color: #D73F09;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-img {
+    width: 15%;
+    margin: 20px 20px 50px;
+    
+}
+
+/* priceing */
+
+.carding-c {
+    padding: 3% 1%;
+    width: 15rem;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.card:hover{
+    transform: scale(1.05);
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.card{
+    border-radius: 4px;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  cursor: pointer;
+}
+    
+.card-img-top {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+
+#cta {
+    background-color: #D73F09;
+
+}
+
+#about {
+    background-color: #f4f4f4;
+    padding: 4% 15%;
+    text-align: center;
+}
+
+#officers {
+    background-color: #fff;
+    padding: 4% 15%;
+    text-align: center;
+}
+#officers img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+#officers h3 {
+    margin-top: 10px;
+}
+
+#events {
+    background-color: #f4f4f4;
+    padding: 4% 15%;
+    text-align: center;
+}
+
+#events {
+    background-color: #f4f4f4;
+    padding: 4% 15%;
+    text-align: center;
+}
+
+.container {
+    padding: 2% 15%;
+}
+
+@media (max-width: 768px) {
+    .container, #about, #officers, #events, #pricing {
+        padding: 4vw 2vw !important;
+    }
+    .container-fluid {
+        padding: 4vw 2vw !important;
+    }
+    h1 {
+        font-size: 1.2rem;
+        line-height: 1.2;
+        margin-bottom: 0.7rem;
+    }
+    h2 {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    h3 {
+        font-size: 0.95rem;
+        margin-bottom: 0.3rem;
+    }
+    .navbar-brand {
+        font-size: 1rem;
+    }
+    .navbar {
+        padding-bottom: 0.7rem;
+    }
+    .nav-link {
+        font-size: 0.95rem;
+        padding: 0.2rem 0.5rem;
+    }
+    .featuers-box {
+        padding: 2vw 1vw;
+        margin-bottom: 1vw;
+    }
+    .carousel-item {
+        padding: 4vw 2vw;
+    }
+    .testimonials-img {
+        width: 18vw;
+        min-width: 32px;
+        max-width: 48px;
+        margin: 8px auto;
+        display: block;
+    }
+    /* Pricing cards: 2 per row, center, less scroll */
+    #pricing .card-group,
+    #pricing .row {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        flex-direction: row !important;
+        gap: 0.7rem !important;
+        align-items: stretch !important;
+        justify-content: center !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    #pricing .carding-c,
+    #pricing .col {
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+        margin: 0 0 1rem 0 !important;
+        padding: 0 !important;
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+    #pricing .card {
+        width: 100% !important;
+        min-width: 0 !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        border-radius: 10px !important;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+        background: #fff;
+        font-size: 0.97rem;
+    }
+    #pricing .card-img-top {
+        height: 120px;
+        object-fit: cover;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    #pricing .card-title {
+        font-size: 1rem;
+        white-space: normal;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-bottom: 0.3rem;
+    }
+    #pricing .card-body {
+        padding: 0.7rem 0.5rem 1rem 0.5rem;
+        text-align: center;
+    }
+    #pricing .card-body p {
+        font-size: 0.95rem;
+        margin-bottom: 0.7rem;
+        white-space: normal;
+    }
+    #pricing .download-button {
+        font-size: 0.95rem;
+        padding: 0.45rem 0;
+        width: 100%;
+        min-width: 0;
+        border-radius: 8px;
+        text-align: center;
+        margin: 0.5rem 0 0 0;
+    }
+    .btn-lg {
+        font-size: 0.98rem;
+        padding: 0.5rem 0.8rem;
+    }
+    /* Officers section: 2 per row for balance */
+    .profile-card {
+        min-width: 0 !important;
+        max-width: 100% !important;
+        width: 100% !important;
+        height: auto !important;
+        padding: 0.6rem 0.7rem !important;
+        margin: 0.4rem 0 !important;
+        border-radius: 10px !important;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+        background: #fff;
+        font-size: 0.97rem;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .level, .sub-level {
+        flex-direction: row !important;
+        flex-wrap: wrap !important;
+        align-items: flex-start !important;
+        gap: 0.7rem !important;
+        margin-bottom: 0.5rem !important;
+        justify-content: center !important;
+    }
+    .level > .profile-card,
+    .sub-level > .profile-card {
+        width: 48% !important;
+        max-width: 48% !important;
+        min-width: 0 !important;
+        margin: 0.4rem 1% !important;
+        box-sizing: border-box;
+    }
+    #officers img {
+        width: 40px;
+        margin-bottom: 5px;
+    }
+    .profile-name, .profile-position {
+        font-size: 0.97rem !important;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 100%;
+        display: block;
+    }
+    .list-group {
+        font-size: 0.97rem;
+    }
+    .list-group-item {
+        padding: 0.6rem 0.8rem;
+        border-radius: 8px;
+        margin-bottom: 0.4rem;
+        background: #fafafa;
+    }
+    #footer {
+        font-size: 0.9rem;
+        padding: 1rem 0;
+    }
+    html, body {
+        max-width: 100vw;
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 0.95rem;
+        margin-bottom: 0.6rem;
+    }
+    h2 {
+        font-size: 0.9rem;
+        margin-bottom: 0.4rem;
+    }
+    .navbar-brand {
+        font-size: 0.9rem;
+    }
+    .profile-name, .profile-position {
+        font-size: 0.9rem !important;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .card-title {
+        font-size: 0.93rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    #pricing .carding-c,
+    #pricing .col,
+    #pricing .card {
+        max-width: 100vw !important;
+        min-width: 0 !important;
+        width: 100vw !important;
+        margin: 0 0 0.7rem 0 !important;
+    }
+    #pricing .card-img-top {
+        height: 90px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    #pricing .card-body {
+        padding: 0.5rem 0.3rem 0.7rem 0.3rem;
+    }
+    #pricing .card-title {
+        font-size: 0.97rem;
+    }
+    #pricing .card-body p {
+        font-size: 0.9rem;
+    }
+    #pricing .download-button {
+        font-size: 0.93rem;
+        padding: 0.35rem 0;
+    }
+    /* ...existing code... */
+}
+
+/* ...existing code... */

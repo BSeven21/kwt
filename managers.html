@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>KWSA.OSU Managers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    body {
+      background: #f4f4f4;
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .managers-container {
+      max-width: 700px;
+      margin: 2rem auto;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+      padding: 2rem 1.5rem;
+    }
+    .manager-block {
+      margin-bottom: 2.5rem;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 2rem;
+    }
+    .manager-block:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+    .manager-header {
+      display: flex;
+      align-items: center;
+      gap: 1.2rem;
+      margin-bottom: 1rem;
+    }
+    .manager-img {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid #D73F09;
+      background: #fff;
+    }
+    .manager-info {
+      flex: 1;
+    }
+    .manager-name {
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin: 0 0 0.2rem 0;
+      color: #D73F09;
+    }
+    .manager-title {
+      font-size: 1rem;
+      color: #555;
+      margin: 0;
+    }
+    .team-title {
+      font-size: 1.05rem;
+      font-weight: 600;
+      margin: 0.7rem 0 0.3rem 0;
+      color: #333;
+    }
+    .team-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .team-list li {
+      background: #f8f8f8;
+      margin-bottom: 0.4rem;
+      padding: 0.5rem 1rem;
+      border-radius: 7px;
+      font-size: 0.98rem;
+      color: #444;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+    }
+    @media (max-width: 600px) {
+      .managers-container {
+        padding: 1rem 0.3rem;
+      }
+      .manager-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.7rem;
+      }
+      .manager-img {
+        width: 50px;
+        height: 50px;
+      }
+      .manager-name {
+        font-size: 1rem;
+      }
+      .manager-title {
+        font-size: 0.93rem;
+      }
+      .team-title {
+        font-size: 0.97rem;
+      }
+      .team-list li {
+        font-size: 0.93rem;
+        padding: 0.45rem 0.7rem;
+      }
+    }
+    .back-link {
+      display: block;
+      text-align: center;
+      margin-top: 2rem;
+      font-size: 1.1rem;
+      color: #D73F09;
+      text-decoration: underline;
+    }
+    .contact-btn {
+      display: block;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .contact-btn a {
+      background: #D73F09;
+      border: none;
+      padding: 0.7rem 2rem;
+      border-radius: 8px;
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="managers-container">
+    <h1 style="text-align:center; color:#D73F09; margin-bottom:2rem;">KWSA.OSU Managers & Teams</h1>
+    
+    <!-- Event Manager -->
+    <div class="manager-block" id="event-manager">
+      <div class="manager-header">
+        <img class="manager-img" src="images/download.jpg" alt="Event Manager">
+        <div class="manager-info">
+          <div class="manager-name">Abdullah Alhaddad</div>
+          <div class="manager-title">Event Manager</div>
+        </div>
+        <a href="mailto:event.manager@email.com" class="btn btn-dark btn-sm" style="background:#D73F09;border:none;padding:0.45rem 1.1rem;border-radius:8px;color:#fff;text-decoration:none;font-size:0.98rem;white-space:nowrap;margin-left:auto;">Contact Our Team</a>
+      </div>
+      <div class="team-title">Team Members</div>
+      <ul class="team-list">
+        <li>Sarah Alhajri</li>
+        <li>Mohammed Alotaibi</li>
+        <li>Fatima Alenezi</li>
+      </ul>
+    </div>
+
+    <!-- Media Manager -->
+    <div class="manager-block" id="media-manager">
+      <div class="manager-header">
+        <img class="manager-img" src="images/download.jpg" alt="Media Manager">
+        <div class="manager-info">
+          <div class="manager-name">Fahad Alenezi</div>
+          <div class="manager-title">Media Manager</div>
+        </div>
+        <a href="mailto:media.manager@email.com" class="btn btn-dark btn-sm" style="background:#D73F09;border:none;padding:0.45rem 1.1rem;border-radius:8px;color:#fff;text-decoration:none;font-size:0.98rem;white-space:nowrap;margin-left:auto;">Contact Our Team</a>
+      </div>
+      <div class="team-title">Team Members</div>
+      <ul class="team-list">
+        <li>Ali Alshammari</li>
+        <li>Reem Almutairi</li>
+        <li>Yousef Alenezi</li>
+      </ul>
+    </div>
+
+    <!-- Academic Manager -->
+    <div class="manager-block" id="academic-manager">
+      <div class="manager-header">
+        <img class="manager-img" src="images/download.jpg" alt="Academic Manager">
+        <div class="manager-info">
+          <div class="manager-name">Mariam Alajmi</div>
+          <div class="manager-title">Academic Manager</div>
+        </div>
+        <a href="mailto:academic.manager@email.com" class="btn btn-dark btn-sm" style="background:#D73F09;border:none;padding:0.45rem 1.1rem;border-radius:8px;color:#fff;text-decoration:none;font-size:0.98rem;white-space:nowrap;margin-left:auto;">Contact Our Team</a>
+      </div>
+      <div class="team-title">Team Members</div>
+      <ul class="team-list">
+        <li>Hamad Alrashidi</li>
+        <li>Salem Alenezi</li>
+        <li>Dalal Alenezi</li>
+      </ul>
+    </div>
+
+    <!-- Freshmen Manager -->
+    <div class="manager-block" id="freshmen-manager">
+      <div class="manager-header">
+        <img class="manager-img" src="images/download.jpg" alt="Freshmen Manager">
+        <div class="manager-info">
+          <div class="manager-name">Yousef Almutairi</div>
+          <div class="manager-title">Freshmen Manager</div>
+        </div>
+        <a href="mailto:freshmen.manager@email.com" class="btn btn-dark btn-sm" style="background:#D73F09;border:none;padding:0.45rem 1.1rem;border-radius:8px;color:#fff;text-decoration:none;font-size:0.98rem;white-space:nowrap;margin-left:auto;">Contact Our Team</a>
+      </div>
+      <div class="team-title">Team Members</div>
+      <ul class="team-list">
+        <li>Abdullah Alhaddad</li>
+        <li>Dalal Alenezi</li>
+        <li>Saad Almutairi</li>
+      </ul>
+    </div>
+
+    <a class="back-link" href="index.html">← Back to Home</a>
+  </div>
+</body>
+</html>
